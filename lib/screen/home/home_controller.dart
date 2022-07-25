@@ -12,7 +12,7 @@ class HomeController extends GetxController {
 
   var docId;
 
-  RxBool isInsert = false.obs;
+  RxBool isInsert = false.obs;       
 
   ///InsertData To Database
   insertContact(String name, String contact, String address) async {
